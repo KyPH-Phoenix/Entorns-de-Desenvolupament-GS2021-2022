@@ -3,6 +3,7 @@ public class Main {
         System.out.println("2 + 4 = " + add(2, 4));
         System.out.println("2 - 4 = " + subtract(2, 4));
         System.out.println("2 * 4 = " + multiply(2, 4));
+        System.out.println("2 / 4 = " + divide(2, 4));
     }
 
     public static double add(double a, double b) {
@@ -15,6 +16,10 @@ public class Main {
 
     public static double multiply(double a, double b) {
         return a * b;
+    }
+
+    public static double divide(double a, double b) {
+        return a / b;
     }
 }
 
